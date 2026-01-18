@@ -1,0 +1,15 @@
+
+Introduction to Data Concepts
+
+Why is data important?
+
+Our world is rich with data - Any business that has a website or a social media presence and that accepts electronic payments is collecting data. Businesses collect data about customers, user habits, web traffic, demographics, and more. All of that data is filled with potential if you can learn how to find it.
+
+Data is critical for business and has big value. Data is one of the most valuable assets organizations can have, whether in business, finance, healthcare, retail, technology, marketing, or other industries. The number of companies using data insights continues to grow. Data insights have the potential to help many companies:
+
+Improve operations
+Better understand end users or customers
+Drive efficiency
+Reduce costs
+Increase profits
+Find new innovations
