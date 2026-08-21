@@ -1,71 +1,54 @@
-📊 **User Engagement Analysis using SQL, Excel & Python**
-🧠** Project Overview
-**
-This project focuses on analyzing learner engagement on an online education platform using a data-driven approach. By combining SQL, Excel, and Python, the analysis explores how users interact with the platform, how engagement varies across subscription types, and how learning activity translates into measurable outcomes such as certifications.
+# 📊 User Engagement Analysis — SQL, Excel & Python
 
-The project emphasizes statistical reasoning, exploratory analysis, and predictive modeling to support business and product decision-making.
+![SQL](https://img.shields.io/badge/SQL-MySQL-blue)
+![Python](https://img.shields.io/badge/Python-pandas%20%7C%20sklearn-yellow)
+![Excel](https://img.shields.io/badge/Excel-Statistical%20Testing-green)
 
-🎯 **Objectives**
+## Overview
 
-Analyze user engagement patterns using watch-time data
+This project analyzes learner engagement on an online education platform using a combined SQL, Excel, and Python workflow. It explores how users interact with the platform, how engagement varies across subscription types, and how learning activity translates into measurable outcomes such as certifications — applying statistical reasoning, exploratory analysis, and predictive modeling to support product and business decision-making.
 
-Compare engagement behavior across different user segments
+## Objectives
 
-Measure relationships between learning activity and outcomes
+- Analyze user engagement patterns using watch-time data
+- Compare engagement behavior across user segments (free vs. paid subscribers)
+- Measure the relationship between learning activity and certification outcomes
+- Apply statistical hypothesis testing to validate observed engagement differences
+- Build a predictive model estimating learning outcomes from user activity
 
-Apply statistical testing to validate engagement changes
+## Tools & Technologies
 
-Build a predictive model to estimate learning outcomes from user activity
+| Category | Tools |
+|---|---|
+| **Data Extraction** | SQL (MySQL) — joins, aggregations, filtering |
+| **Statistical Analysis** | Excel — hypothesis testing, confidence intervals |
+| **Modeling & Visualization** | Python — pandas, matplotlib, seaborn, scikit-learn |
 
-🛠️** Tools & Technologies**
+## Project Workflow
 
-SQL (MySQL) – Data extraction, joins, aggregations
+### 1. Data Extraction & Preparation
+Raw data was extracted from relational tables using SQL queries. Users were classified by subscription type, and engagement metrics were derived from video-watch logs. Certificate data was merged in to provide a complete view of learning outcomes.
 
-Excel – Statistical analysis, hypothesis testing, confidence intervals
+### 2. Data Cleaning & Exploration
+Engagement distributions were visualized to understand behavior patterns, and extreme outliers were removed to support robust statistical analysis and realistic modeling.
 
-Python – Data cleaning, visualization, and modeling
+### 3. Statistical Analysis
+Summary statistics (mean, variance, confidence intervals) were calculated, and two-sample t-tests were used to test whether engagement differences between user groups were statistically significant.
 
-pandas
+### 4. Relationship Analysis
+Correlation analysis evaluated the relationship between learning time and certification outcomes, supported by visualizations for interpretability.
 
-matplotlib
+### 5. Probability & Dependency Analysis
+Probability concepts were applied to study engagement continuity and dependency over time, informing insights into user retention and behavioral consistency.
 
-seaborn
+### 6. Predictive Modeling
+A linear regression model was built to predict certification outcomes from engagement level, evaluated with a train/test split and R² score, and validated visually with prediction plots.
 
-scikit-learn
+## Key Insights
 
-🔄 **Project Workflow**
-**Data Extraction & Preparation
-**
-Raw data was extracted from relational tables using SQL queries. User subscription information was used to classify learners, and engagement metrics were derived from video-watch logs. Certificate data was merged to provide a complete view of learning outcomes.
+- User engagement distributions are heavily right-skewed
+- Paid users show more consistent engagement patterns than free users
+- Statistical testing confirms meaningful engagement differences across segments
+- Learning time and certification outcomes show a positive relationship
+- A simple regression model provides meaningful predictive signal for certification outcomes
 
-**Data Cleaning & Exploration
-**
-Engagement distributions were visualized to understand user behavior patterns. Extreme outliers were removed to ensure robust statistical analysis and realistic modeling.
-
-**Statistical Analysis
-**
-Key summary statistics were calculated, including mean, variance, and confidence intervals. Two-sample t-tests were performed to determine whether observed engagement differences were statistically significant across user groups.
-
-**Relationship Analysis
-**
-Correlation analysis was conducted to evaluate the relationship between learning time and certification outcomes. Visualizations were used to support interpretability.
-
-**Probability & Dependency Analysis
-**
-Probability concepts were applied to study engagement continuity and dependency across time, providing insights into user retention and behavioral consistency.
-
-**Predictive Modeling
-**
-A linear regression model was developed to predict certification outcomes based on engagement levels. Model performance was evaluated using train-test splits and R² scores, with visual validation through prediction plots.
-
-📈** Key Insights
-**
-User engagement distributions are heavily right-skewed
-
-Paid users show more consistent engagement patterns
-
-Statistical testing indicates meaningful engagement differences
-
-Learning time and certifications exhibit a positive relationship
-
-Simple regression models can provide valuable predictive insights
