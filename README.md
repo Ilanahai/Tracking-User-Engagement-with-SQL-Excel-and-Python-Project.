@@ -1,8 +1,6 @@
 # 📊 User Engagement Analysis — SQL, Excel & Python
 
-![SQL](https://img.shields.io/badge/SQL-MySQL-blue)
-![Python](https://img.shields.io/badge/Python-pandas%20%7C%20sklearn-yellow)
-![Excel](https://img.shields.io/badge/Excel-Statistical%20Testing-green)
+
 
 ## Overview
 
@@ -31,6 +29,14 @@ Raw data was extracted from relational tables using SQL queries. Users were clas
 
 ### 2. Data Cleaning & Exploration
 Engagement distributions were visualized to understand behavior patterns, and extreme outliers were removed to support robust statistical analysis and realistic modeling.
+
+**Before outlier removal:**
+![Free and paid engagement distributions](images/free_and_paid_q2.png)
+
+**After outlier removal:**
+![Paid engagement distributions without outliers](images/paid_no_outliers.png)
+
+Removing outliers significantly tightened the distributions — for example, the Paid Q2 2022 range narrowed from roughly 0–1,600 minutes down to 0–300 minutes — giving a more realistic picture of typical user behavior for downstream statistical testing and modeling.
 
 ### 3. Statistical Analysis
 Summary statistics (mean, variance, confidence intervals) were calculated, and two-sample t-tests were used to test whether engagement differences between user groups were statistically significant.
