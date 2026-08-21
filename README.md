@@ -31,7 +31,7 @@ Raw data was extracted from relational tables using SQL queries. Users were clas
 Engagement distributions were visualized to understand behavior patterns, and extreme outliers were removed to support robust statistical analysis and realistic modeling.
 
 **Before outlier removal:**
-![Free and paid engagement distributions](images/free_and_paid_q2.png)
+![Free and paid engagement distributions](free and paid q2.png)
 
 **After outlier removal:**
 ![Paid engagement distributions without outliers](images/paid_no_outliers.png)
